@@ -1,0 +1,16 @@
+
+#col-invertida{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#contenedor-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    top: 1em;
+    left: 1em;
+    height: 3em;
+    z-index: 1000;
+}
