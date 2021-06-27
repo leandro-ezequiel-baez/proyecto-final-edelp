@@ -1,16 +1,20 @@
-
-#col-invertida{
-    display: flex;
-    flex-direction: row-reverse;
-}
-#contenedor-logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#logo{
-    top: 1em;
-    left: 1em;
+.navbar-brand img{
     height: 3em;
-    z-index: 1000;
+}
+
+
+#navbarNavDropdown li a{
+    display:flex;
+    align-items:flex-end;
+}
+
+.todos{
+    font-size: 120%;
+}
+.texto{
+    background-image: url(/asset/pexels-karolina-grabowska-4210860.jpg);
+}
+#imagen-texto{
+    height: 35rem;
+
 }
