@@ -1,7 +1,10 @@
 .navbar-brand img{
     height: 3em;
 }
-
+#exampleModalToggle{
+    
+    justify-self: flex-end;
+}
 
 #navbarNavDropdown li a{
     display:flex;
