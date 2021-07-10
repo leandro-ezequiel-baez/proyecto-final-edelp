@@ -77,8 +77,25 @@ body, html {
 
 /*fin navbar cambiar colores*/
 
-/*cartel debajo de hero*/
- 
+/*hr de bajo de hero*/
+
+hr.style15 {
+	border-top: 4px double rgb(0, 0, 0);
+	text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+hr.style15:after {
+	content: "Ropa";
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #000;
+	color: #eeff00;
+	font-size: 18px;
+}   
+
 
 /*fin*/
 
@@ -97,11 +114,16 @@ body, html {
 
 
 
+/*modal*/
+.modal-content{
+    background-color: #141414;
+}
+.modal-title{
+    color: #e5ff00;
+}
 
 
-
-
-/*color de los botnes del modal*/
+/*color de los botnes del modal de la pagina principal*/
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:active,

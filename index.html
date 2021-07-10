@@ -88,15 +88,78 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <h5 class="modal-title" id="exampleModalLabel">Crear cuenta</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                 </div>
                 <div class="modal-body">
-                  ...
+                  <form class="row g-4 needs-validation" validate>
+                    <div class="col-md-4 position-relative">
+                      <label for="validationTooltip01" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="validationTooltip01" value="Mark" required placeholder="Tu nombre">
+                      <div class="valid-tooltip">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 position-relative">
+                      <label for="validationTooltip02" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" id="validationTooltip02" value="Otto" required placeholder="Tu apellido">
+                      <div class="valid-tooltip">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 position-relative">
+                      <label for="validationTooltipUsername" class="form-label">Usuario</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                        <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required placeholder="Tu usuario">
+                        <div class="invalid-tooltip">
+                          Please choose a unique and valid username.
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 position-relative">
+                      <label for="validationTooltip05" class="form-label">Email</label>
+                      <input type="text" class="form-control" id="validationTooltip05" required placeholder="Ejemplo@gmail.com">
+                      <div class="invalid-tooltip">
+                        Please provide a valid zip.
+                      </div>
+                      
+                    </div>
+                    <div class="col-md-4 position-relative">
+                      <label for="exampleInputPassword1" class="form-label">contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tu contraseña">
+                    </div>
+                    <div class="col-md-4 position-relative">
+                      <label for="validationTooltip03" class="form-label">Provincia</label>
+                      <select class="form-select" id="validationTooltip03" required>
+                        <option selected disabled value="">Elegir</option>
+                        <option>Mas opciones</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4 position-relative">
+                      <label for="validationTooltip04" class="form-label">Ciudad</label>
+                      <select class="form-select" id="validationTooltip04" required>
+                        <option selected disabled value="">Mas opciones</option>
+                        <option>Elegir</option>
+                      </select>
+                      <div class="invalid-tooltip">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-4 position-relative">
+                      <label for="validationTooltip05" class="form-label">CP</label>
+                      <input type="text" class="form-control" id="validationTooltip05" required placeholder="Codigo Postal">
+                      <div class="invalid-tooltip">
+                        Please provide a valid zip.
+                      </div>
+                      
+                    </div>
+                                        
+                  </form>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-primary">Registrarse</button>
                 </div>
               </div>
             </div>
@@ -116,12 +179,25 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel2">Modal title</h5>
+                  <h5 class="modal-title" id="exampleModalLabel2">Iniciar sesión</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                  ...
-                </div>
+                <form class="row g-4 needs-validation" novalidate>
+                  <div class="col-md-7 position-relative">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ejemplo@gmail.com">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="col-md-4 position-relative">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="col-md-4 position-relative ">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  
+                </form>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                   <button type="button" class="btn btn-primary">Schanges</button>
@@ -152,7 +228,9 @@
   </div>
   
  <!--fin Hero-->
- 
+ <div class="container-fluid">
+    <hr class="style15">
+ </div>
 
 
 
@@ -204,8 +282,8 @@
           <div class="col-md-5 col-12">
             <!-- Email input -->
             <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example2" class="form-control" />
-              <label class="form-label" for="form5Example2">Email</label>
+              <input type="email" id="form5Example2" class="form-control" placeholder="Ejemplo@gmail.com"/>
+              <label  class="form-label" for="form5Example2">Email</label>
             </div>
           </div>
           <!--Grid column-->
