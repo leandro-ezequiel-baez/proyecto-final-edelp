@@ -19,15 +19,7 @@
     <title>Feria</title>
 
   <body>
-    
-    <div data-video="jCKMtLJA6Uk"
-    data-autoplay="1"
-    data-loop="1"
-    id="youtube-audio" style="height: 0px;width: 0px;">
-    </div>
-<script src="https://www.youtube.com/iframe_api"></script>
-<script src="https://cdn.rawgit.com/labnol/files/master/yt.js"></script>
-    
+  
     
     <div class="container-fluid"></div>
       <div class="row">
@@ -93,11 +85,7 @@
         </div>
 
         <!--carrito-->
-        <div class="columna">
-         
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button>
-           
-        </div>
+        
         <!--fin carrito-->
         <div class="columna">
           <!-- Button trigger modal -->
@@ -255,7 +243,7 @@
     <!--carta de venta-->
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col col-espacio">
           <div class="card" style="width: 20rem;">
     <img class="card-img-top img-fluid" src="./asset/campera-corderito.png" alt="campera-corderito">
     <div class="card-block">
@@ -265,7 +253,7 @@
     </div>
   </div>
         </div>
-        <div class="col">
+        <div class="col col-espacio">
           <div class="card" style="width: 20rem;">
     <img class="card-img-top img-fluid" src="./asset/campera-jean.png" alt="Card image cap">
     <div class="card-block">
@@ -275,7 +263,7 @@
     </div>
   </div>
         </div>
-        <div class="col">
+        <div class="col col-espacio">
           <div class="card" style="width: 20rem;">
     <img class="card-img-top img-fluid" src="./asset/camisa.png" alt="Card image cap">
     <div class="card-block">
@@ -335,20 +323,44 @@
       <!-- Facebook -->
       <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
 
-      <!-- Twitter -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
-      <!-- Google -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i class="fab fa-google"></i></a>
-
+      
       <!-- Instagram -->
       <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
 
       <!-- Linkedin -->
       <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
-      <!-- Github -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i class="fab fa-github"></i></a>
+
+      <!-- mapa -->
+     
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="padding: 0%;">
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #00ff00" href="#!" role="button"><i class="fas fa-map-pin"></i></a>
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Mapa</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              
+            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52343.025421058635!2d-57.98818978560934!3d-34.92052327677842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1625932536142!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
+    
     <!-- Section: Social media -->
 
 
@@ -383,11 +395,7 @@
               Subscribite
             </button>
           </div>
-          <!--Grid column-->
-          <div class="col-md-5">
-            <a href="whatsapp://send?text=Hola, Index.pe&phone=+12 346 678 910&abid=+12 346 678 910">+12 346 678 910</a>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52343.025421058635!2d-57.98818978560934!3d-34.92052327677842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1625932536142!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
+         
           <!--Grid column-->
         </div>
         <!--Grid row-->
