@@ -94,12 +94,12 @@ hr.new15 {
 }
 
 hr.new15:after {
-	content: "Ropa";
+	content: "Destacados de la semana";
 	display: inline-block;
 	position: relative;
 	top: -15px;
 	padding: 0 10px;
-	background: #000;
+	background: rgb(255, 153, 0);
 	color: #ffffff;
 	font-size: 18px;
 }   
