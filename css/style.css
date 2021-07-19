@@ -1,41 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+*{
+    font-family: 'Lato', sans-serif;
+}
+
 body{
-
     background-color: #f7c76d;
-
-}
-.col-espacio{
-    margin-bottom: 1em;
-}
-.navbar-brand img{
-    height: 3em;
-}
-
-
-.texto{
-    width:100%;
-    height: 20px;
-}
-.container-fluid {
-    padding: 0px;
 }
 
 body, html {
     height: 100%;
 }
 
+.container-fluid {
+    padding: 0px;
+}
+
+
+.navbar-brand img{
+    height: 3em;
+}
+
 .boton-nav, .btn-primary{
     margin-right: 1em;
 }
-
-
-
-*{
-    font-family: 'Lato', sans-serif;
-}
-
-
 
 /*navbar cambiar colores*/
 
@@ -79,47 +67,9 @@ body, html {
 .navbar-custom .navbar-nav .dropdown-item:focus {
     color: #f8f673;
     background-color:  #ec1010;
-    ;
+    
 }
-
 /*fin navbar cambiar colores*/
-
-/*hr de bajo de hero*/
-
-hr.style15 {
-	border-top: 4px double rgb(0, 0, 0);
-	text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-hr.style15:after {
-	content: "Ropa";
-	display: inline-block;
-	position: relative;
-	top: -15px;
-	padding: 0 10px;
-	background: #000;
-	color: #eeff00;
-	font-size: 18px;
-}   
-
-
-/*fin*/
-
-
-
-/*footer color*/
-.footer-custom{
-    background-color: #141414;
-}
-
-.pt-2 strong, .form-label{
-    color: #f8f673;
-}
-
-
-
-
 
 /*modal*/
 .modal-content{
@@ -128,7 +78,49 @@ hr.style15:after {
 .modal-title{
     color: #e5ff00;
 }
+.texto{
+    width:100%;
+    height: 20px;
+}
 
+/*hr de bajo de hero*/
+hr{
+    opacity: .7;
+}
+hr.new15 {
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+}
+
+hr.new15:after {
+	content: "Ropa";
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #000;
+	color: #ffffff;
+	font-size: 18px;
+}   
+/*card */
+
+.col-espacio{
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.card-block{
+    background-image: url(../asset/fondo-card.png);
+    
+}
+.card-img-top{
+    max-height: 19em;
+}
+.card{
+    width: 19em;
+   
+}
 
 /*color de los botnes del modal de la pagina principal*/
 .btn-primary,
@@ -156,7 +148,7 @@ hr.style15:after {
     position: relative;
 }
 
-    /* Place text in the middle of the image */
+/* Place text in the middle of the image */
 .hero-text {
     text-align: center;
     position: absolute;
@@ -165,12 +157,17 @@ hr.style15:after {
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Lemon';font-size: 22px;
-  }
-
-
-
-/* tarjeta de venta */
+}
 
 .img-fluid{
     max-height: 20em;
+}
+
+/*footer color*/
+.footer-custom{
+    background-color: #141414;
+}
+
+.pt-2 strong, .form-label{
+    color: #f8f673;
 }
