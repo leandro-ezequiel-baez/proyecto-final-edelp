@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body{
+<<<<<<< HEAD
     background-color: rgb(209, 190, 190);
+=======
+    background-color: rgb(171, 190, 190);
+>>>>>>> b3e44ab (eso)
 }
 .col-espacio{
     margin-bottom: 1em;
