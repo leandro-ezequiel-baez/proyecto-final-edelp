@@ -102,17 +102,20 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                 </div>
                 <div class="modal-body">
-                  <form class="row g-4 needs-validation" validate>
+
+
+
+                  <form action="https://usebasin.com/f/ec5239933950" method="POST" class="row g-4 needs-validation" validate>
                     <div class="col-md-4 position-relative">
-                      <label for="validationTooltip01" class="form-label">Nombre</label>
-                      <input type="text" class="form-control" id="validationTooltip01" value="" required placeholder="Tu nombre">
+                      <label for="validationTooltip01"  class="form-label">Nombre</label>
+                      <input type="text" class="form-control" name="nombre" id="validationTooltip01" value="" required placeholder="Tu nombre">
                       <div class="valid-tooltip">
                         Looks good!
                       </div>
                     </div>
                     <div class="col-md-4 position-relative">
                       <label for="validationTooltip02" class="form-label">Apellido</label>
-                      <input type="text" class="form-control" id="validationTooltip02" value="" required placeholder="Tu apellido">
+                      <input type="text" class="form-control" name="apellido" id="validationTooltip02" value="" required placeholder="Tu apellido">
                       <div class="valid-tooltip">
                         Looks good!
                       </div>
@@ -121,7 +124,7 @@
                       <label for="validationTooltipUsername" class="form-label">Usuario</label>
                       <div class="input-group has-validation">
                         <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-                        <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required placeholder="Tu usuario">
+                        <input type="text" class="form-control" name="usuario" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required placeholder="Tu usuario">
                         <div class="invalid-tooltip">
                           Please choose a unique and valid username.
                         </div>
@@ -129,7 +132,7 @@
                     </div>
                     <div class="col-md-8 position-relative">
                       <label for="validationTooltip05" class="form-label">Email</label>
-                      <input type="text" class="form-control" id="validationTooltip05" required placeholder="Ejemplo@gmail.com">
+                      <input type="text" class="form-control" name="email" id="validationTooltip05" required placeholder="Ejemplo@gmail.com">
                       <div class="invalid-tooltip">
                         Please provide a valid zip.
                       </div>
@@ -137,7 +140,7 @@
                     </div>
                     <div class="col-md-4 position-relative">
                       <label for="exampleInputPassword1" class="form-label">contraseña</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tu contraseña">
+                      <input type="password" class="form-control" name="contraseña" id="exampleInputPassword1" placeholder="Tu contraseña">
                     </div>
                     <div class="col-md-4 position-relative">
                       <label for="validationTooltip03" class="form-label">Provincia</label>
@@ -164,13 +167,12 @@
                       </div>
                       
                     </div>
-                                        
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                    <button type="submit" class="btn btn-primary">Registrarse</button>         
                   </form>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
-                  <button type="button" class="btn btn-primary">Registrarse</button>
-                </div>
+                
+                
               </div>
             </div>
           </div>
@@ -414,7 +416,7 @@
     <a class="text-white" href="https://FAferia.com/">Faferia.com</a>
   </div>
   <!-- Copyright -->
-
+  
 </footer>
 <!-- Footer -->
     <!-- Optional JavaScript; choose one of the two! -->
