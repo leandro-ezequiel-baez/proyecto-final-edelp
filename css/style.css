@@ -16,6 +16,13 @@ body, html {
     padding: 0px;
 }
 
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 255, 255);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("../asset/bars-solid.png");
+}
 
 .navbar-brand img{
     height: 3em;
